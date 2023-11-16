@@ -73,4 +73,9 @@ footer {
     color: #f7cd5a;
     text-align: center;
 }
-
+.footDiv{
+    margin-top: 50px;
+}
+.locs{
+    background-color: #ffb900;
+}
