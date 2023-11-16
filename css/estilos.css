@@ -1,0 +1,50 @@
+.logo {
+    width: 150px;
+}
+
+.encabezado {
+    background-color: #ffb900;
+    margin-bottom: 50px;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 1px solid rgb(255, 66, 33);
+    border-left: 1px solid rgb(255, 66, 33);
+}
+
+.menuNav a:hover {
+    background-color: #b98f1b;
+    color: rgb(255, 66, 33)
+}
+
+.expHavanna {
+    display: grid;
+}
+
+.expHavanna h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffb900;
+    margin-top: 20px;
+
+}
+
+.expHavanna h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #f7cd5a;
+}
+
+.cartasHavanna {
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+}
+footer{
+    margin-top: 1px solid;
+}
