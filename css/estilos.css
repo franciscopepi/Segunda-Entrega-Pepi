@@ -45,6 +45,32 @@
     height: 350px;
     display: inline-block;
 }
-footer{
+
+footer {
     margin-top: 1px solid;
 }
+
+.padreGrid {
+    display: grid;
+}
+
+.productosGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.subtituloProductos h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffb900;
+    margin-top: 20px;
+    text-align: center;
+}
+.subtituloProductos h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #f7cd5a;
+    text-align: center;
+}
+

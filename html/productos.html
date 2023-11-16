@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Havanna</title>
+    <title>Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-<body>
+<body class="padreGrid">
     <header class="navbar navbar-expand-lg encabezado">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logo hvn.png" alt="Logo Havanna"></a>
+            <a class="navbar-brand" href="#"><img class="logo" src="../img/logo hvn.png" alt="Logo Havanna"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,16 +21,16 @@
             <nav class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav menuNav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/html/locales.html">Locales</a>
+                        <a class="nav-link" href="locales.html">Locales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/html/contacto.html">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/html/productos.html">Productos</a>
+                        <a class="nav-link" href="productos.html">Productos</a>
                     </li>
                 </ul>
             </nav>
@@ -47,13 +47,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/vigan afajor xd.png" class="d-block w-100" alt="Alfajor vegano">
+                <img src="../img/img productos.png" class="d-block w-100" alt="Alfajor vegano">
             </div>
             <div class="carousel-item">
-                <img src="img/super ddl.png" class="d-block w-100" alt="Alfajor ddl">
+                <img src="../img/super ddl.png" class="d-block w-100" alt="Alfajor ddl">
             </div>
             <div class="carousel-item">
-                <img src="img/conoce sucursal.jpg" class="d-block w-100" alt="Sucursal">
+                <img src="../img/conoce sucursal.jpg" class="d-block w-100" alt="Sucursal">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -66,38 +66,42 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+        <div class="subtituloProductos">
+            <h2>Productos
+                <h3>Catalogo</h3>
+            </h2>
+        </div>
+        <div class="container text-center productosGrid">
+            <div class="row">
+                <div class="col">
+                    <img src="../img/alf.png" alt="Alfajor">
+                </div>
+                <div class="col">
+                    <img src="../img/cono.png" alt="Conitos">
+                </div>
+                <div class="col">
+                    <img src="../img/mini.png" alt="MiniAlfajor">
+                </div>
+                <div class="col">
+                    <img src="../img/lemon.png" alt="Galletitas">
+                </div>
+                <div class="col">
+                    <img src="../img/ddlsx.png" alt="DulceDeLeche">
+                </div>
+                <div class="col">
+                    <img src="../img/barritas.png" alt="Barritas">
+                </div>
+                <div class="col">
+                    <img src="../img/choco.png" alt="Chocolates">
+                </div>
+                <div class="col">
+                    <img src="../img/café.png" alt="Café">
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="padreFlex">
-        <div class="expHavanna">
-            <h2>Bienvenidos</h2>
-            <h3>conoce la experiencia havanna</h3>
-        </div>
-        <div class="card col-xl-3 col-md-6 col-sm-16 cartasHavanna">
-            <img src="img/hempresa.jpg" class="card-img-top" alt="Empresa">
-            <div class="card-body">
-            </div>
-        </div>
-        <div class="card col-xl-3 col-md-6 col-sm-16 cartasHavanna">
-            <img src="img/hlocales.jpg" class="card-img-top" alt="Locales">
-            <div class="card-body">
-            </div>
-        </div>
-        <div class="card col-xl-3 col-md-6 col-sm-16 cartasHavanna">
-            <img src="img/hproductos.jpg" class="card-img-top" alt="Productos">
-            <div class="card-body">
-            </div>
-        </div>
-        <div class="card col-xl-3 col-md-6 col-sm-16 cartasHavanna">
-            <img src="img/htrabajo.jpg" class="card-img-top" alt="Trabajo">
-            <div class="card-body">
-            </div>
-        </div>
-        <div>
-            <footer>
-            </footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
